@@ -94,16 +94,17 @@ h1 {
 .social {
   text-decoration: none;
   height: 10px;
-  padding: 0px;
+  padding: 1px;
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  margin-left: 0px;
+  margin-left: 1px;
   gap: 4px;
   padding-left: 24px;
 }
+
 li:hover {
   transform: translate(0, -2px);
 }
