@@ -10,12 +10,13 @@
   background: #fff;
   height: 600px;
   width: 375px;
-  align-self: center; 
+  align-self: center;
+  
   align-items: center;
   border-bottom-left-radius: 25px;
 }
 
-.header{
+.header {
   display: flex;
   height: 50px;
   width: 100%;
@@ -23,7 +24,7 @@
 
 .logo {
   display: flex;
-  font-family: 'Poppins';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -39,7 +40,7 @@
   transform: translate(0, -2px);
 }
 
-.menu{
+.menu {
   padding-left: 200px;
   cursor: pointer;
 }
@@ -48,18 +49,19 @@
   transform: translate(0, -2px);
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   height: 518px;
   width: 100%;
   background-image: url("image/shapes.png");
-  justify-content: center;   
+  justify-content: center;
+
 }
 
-.name{
+.name {
   height: 130px;
-  font-family: 'Poppins';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -68,27 +70,27 @@
   padding: 24px;
 }
 
-.content{
+.content {
   height: 80px;
   padding: 24px;
-  font-family: 'Poppins';
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
 }
 
-.connect{
+.connect {
   height: 26px;
   padding: 24px;
-  font-family: 'calibri';
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
 }
 
-.social{
+.social {
   height: 18px;
   display: flex;
   padding: 24px;
